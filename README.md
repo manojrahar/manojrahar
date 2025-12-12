@@ -1,16 +1,15 @@
-## Hi there 👋
+💫 About Me
 
-<!--
-**manojrahar/manojrahar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Hi there 👋
 
-Here are some ideas to get you started:
+Nice meeting you, I'm Manoj Rahar!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+🔭 I’m currently working on: Frontend projects using HTML, CSS, JavaScript & React
+🌱 I’m currently learning: Backend fundamentals (Node.js, Express) to become a full-stack developer
+💬 Ask me about: Web development, React, UI design, frontend tools
+📫 How to reach me:
+– Instagram: add your handle
+– LinkedIn: add your handle
+– X (Twitter): add your handle
+😄 Pronouns: He/Him
+⚡ Fun fact: If I’m not coding, I’m probably designing UIs or playing games with friends

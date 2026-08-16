@@ -1,0 +1,6 @@
+.venv/
+source-photo.jpeg
+source-prepped.png
+.DS_Store
+__pycache__/
+*.pyc

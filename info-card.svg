@@ -3,15 +3,15 @@
 <svg
     xmlns="http://www.w3.org/2000/svg"
     width="560"
-    height="390"
-    viewBox="0 0 560 390"
+    height="748"
+    viewBox="0 0 560 748"
 >
 
     <rect
         x="0.5"
         y="0.5"
         width="559"
-        height="389"
+        height="747"
         rx="12"
         fill="#0d1117"
         stroke="#30363d"
@@ -21,35 +21,35 @@
         x="1"
         y="1"
         width="558"
-        height="42"
+        height="48"
         rx="11"
         fill="#161b22"
     />
 
     <circle
         cx="24"
-        cy="22"
+        cy="25"
         r="5"
         fill="#ff5f56"
     />
 
     <circle
         cx="42"
-        cy="22"
+        cy="25"
         r="5"
         fill="#ffbd2e"
     />
 
     <circle
         cx="60"
-        cy="22"
+        cy="25"
         r="5"
         fill="#27c93f"
     />
 
     <text
         x="85"
-        y="27"
+        y="30"
         fill="#8b949e"
         font-family="monospace"
         font-size="12"
@@ -57,12 +57,21 @@
 
     <text
         x="30"
-        y="68"
+        y="95"
         fill="#e6edf3"
         font-family="monospace"
-        font-size="14"
+        font-size="16"
         font-weight="bold"
     >manojrahar</text>
+
+    <line
+        x1="30"
+        y1="120"
+        x2="530"
+        y2="120"
+        stroke="#30363d"
+        stroke-width="1"
+    />
 
     
             <g opacity="0">
@@ -77,19 +86,19 @@
 
                 <text
                     x="30"
-                    y="92"
+                    y="170"
                     fill="#39d353"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                     font-weight="bold"
                 >Role</text>
 
                 <text
                     x="145"
-                    y="92"
+                    y="170"
                     fill="#e6edf3"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                 >Full Stack Developer</text>
             </g>
             
@@ -105,19 +114,19 @@
 
                 <text
                     x="30"
-                    y="126"
+                    y="228"
                     fill="#58a6ff"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                     font-weight="bold"
                 >Focus</text>
 
                 <text
                     x="145"
-                    y="126"
+                    y="228"
                     fill="#e6edf3"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                 >React.js • Next.js • MERN</text>
             </g>
             
@@ -133,19 +142,19 @@
 
                 <text
                     x="30"
-                    y="160"
+                    y="286"
                     fill="#58a6ff"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                     font-weight="bold"
                 >Frontend</text>
 
                 <text
                     x="145"
-                    y="160"
+                    y="286"
                     fill="#e6edf3"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                 >React • Next • Tailwind CSS</text>
             </g>
             
@@ -161,19 +170,19 @@
 
                 <text
                     x="30"
-                    y="194"
+                    y="344"
                     fill="#bc8cff"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                     font-weight="bold"
                 >Backend</text>
 
                 <text
                     x="145"
-                    y="194"
+                    y="344"
                     fill="#e6edf3"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                 >Node • Express • REST APIs</text>
             </g>
             
@@ -189,19 +198,19 @@
 
                 <text
                     x="30"
-                    y="228"
+                    y="402"
                     fill="#f0883e"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                     font-weight="bold"
                 >Database</text>
 
                 <text
                     x="145"
-                    y="228"
+                    y="402"
                     fill="#e6edf3"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                 >MongoDB • PostgreSQL</text>
             </g>
             
@@ -217,19 +226,19 @@
 
                 <text
                     x="30"
-                    y="262"
+                    y="460"
                     fill="#bc8cff"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                     font-weight="bold"
                 >React</text>
 
                 <text
                     x="145"
-                    y="262"
+                    y="460"
                     fill="#e6edf3"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                 >Hooks • Context API • State</text>
             </g>
             
@@ -245,19 +254,19 @@
 
                 <text
                     x="30"
-                    y="296"
+                    y="518"
                     fill="#39d353"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                     font-weight="bold"
                 >Tools</text>
 
                 <text
                     x="145"
-                    y="296"
+                    y="518"
                     fill="#e6edf3"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                 >Git • GitHub • Vercel • Axios</text>
             </g>
             
@@ -273,30 +282,60 @@
                 fill="freeze"
             />
 
+            <line
+                x1="30"
+                y1="598"
+                x2="530"
+                y2="598"
+                stroke="#30363d"
+                stroke-width="1"
+            />
+
             <text
                 x="30"
-                y="346"
+                y="640"
                 fill="#8b949e"
                 font-family="monospace"
-                font-size="11"
+                font-size="12"
             >CURRENT</text>
 
             <text
                 x="30"
-                y="369"
+                y="670"
                 fill="#39d353"
                 font-family="monospace"
-                font-size="13"
+                font-size="14"
                 font-weight="bold"
             >CubeStaX</text>
 
             <text
                 x="145"
-                y="369"
+                y="670"
                 fill="#e6edf3"
                 font-family="monospace"
-                font-size="13"
+                font-size="14"
             >Full Stack Developer Intern</text>
+        </g>
+    
+
+    
+        <g opacity="0">
+            <animate
+                attributeName="opacity"
+                from="0"
+                to="1"
+                dur="0.4s"
+                begin="1.65s"
+                fill="freeze"
+            />
+
+            <text
+                x="30"
+                y="720"
+                fill="#8b949e"
+                font-family="monospace"
+                font-size="11"
+            >status: building • learning • shipping</text>
         </g>
     
 

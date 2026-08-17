@@ -17,7 +17,7 @@ ORANGE = "#f0883e"
 
 
 WIDTH = 560
-HEIGHT = 390
+HEIGHT = 748
 
 
 ROWS = [
@@ -42,8 +42,10 @@ def escape(value):
 
 def main():
 
-    row_start = 92
-    row_gap = 34
+    # The portrait is tall, so spread the card content
+    # vertically instead of leaving a large empty area.
+    row_start = 170
+    row_gap = 58
 
     row_elements = []
 
@@ -70,7 +72,7 @@ def main():
                     y="{y}"
                     fill="{accent}"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                     font-weight="bold"
                 >{escape(label)}</text>
 
@@ -79,13 +81,13 @@ def main():
                     y="{y}"
                     fill="{TEXT}"
                     font-family="monospace"
-                    font-size="13"
+                    font-size="14"
                 >{escape(value)}</text>
             </g>
             '''
         )
 
-    current_y = 92 + len(ROWS) * row_gap + 16
+    current_y = 640
 
     current_section = f'''
         <g opacity="0">
@@ -98,30 +100,60 @@ def main():
                 fill="freeze"
             />
 
+            <line
+                x1="30"
+                y1="{current_y - 42}"
+                x2="{WIDTH - 30}"
+                y2="{current_y - 42}"
+                stroke="{BORDER}"
+                stroke-width="1"
+            />
+
             <text
                 x="30"
                 y="{current_y}"
                 fill="{MUTED}"
                 font-family="monospace"
-                font-size="11"
+                font-size="12"
             >CURRENT</text>
 
             <text
                 x="30"
-                y="{current_y + 23}"
+                y="{current_y + 30}"
                 fill="{GREEN}"
                 font-family="monospace"
-                font-size="13"
+                font-size="14"
                 font-weight="bold"
             >CubeStaX</text>
 
             <text
                 x="145"
-                y="{current_y + 23}"
+                y="{current_y + 30}"
                 fill="{TEXT}"
                 font-family="monospace"
-                font-size="13"
+                font-size="14"
             >Full Stack Developer Intern</text>
+        </g>
+    '''
+
+    footer = f'''
+        <g opacity="0">
+            <animate
+                attributeName="opacity"
+                from="0"
+                to="1"
+                dur="0.4s"
+                begin="1.65s"
+                fill="freeze"
+            />
+
+            <text
+                x="30"
+                y="720"
+                fill="{MUTED}"
+                font-family="monospace"
+                font-size="11"
+            >status: building • learning • shipping</text>
         </g>
     '''
 
@@ -148,35 +180,35 @@ def main():
         x="1"
         y="1"
         width="{WIDTH - 2}"
-        height="42"
+        height="48"
         rx="11"
         fill="{PANEL}"
     />
 
     <circle
         cx="24"
-        cy="22"
+        cy="25"
         r="5"
         fill="#ff5f56"
     />
 
     <circle
         cx="42"
-        cy="22"
+        cy="25"
         r="5"
         fill="#ffbd2e"
     />
 
     <circle
         cx="60"
-        cy="22"
+        cy="25"
         r="5"
         fill="#27c93f"
     />
 
     <text
         x="85"
-        y="27"
+        y="30"
         fill="{MUTED}"
         font-family="monospace"
         font-size="12"
@@ -184,16 +216,27 @@ def main():
 
     <text
         x="30"
-        y="68"
+        y="95"
         fill="{TEXT}"
         font-family="monospace"
-        font-size="14"
+        font-size="16"
         font-weight="bold"
     >manojrahar</text>
+
+    <line
+        x1="30"
+        y1="120"
+        x2="{WIDTH - 30}"
+        y2="120"
+        stroke="{BORDER}"
+        stroke-width="1"
+    />
 
     {''.join(row_elements)}
 
     {current_section}
+
+    {footer}
 
 </svg>
 '''
@@ -204,6 +247,7 @@ def main():
     )
 
     print(f"Created: {OUTPUT}")
+    print(f"Size: {WIDTH}x{HEIGHT}")
 
 
 if __name__ == "__main__":

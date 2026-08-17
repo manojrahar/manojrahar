@@ -11,11 +11,11 @@
 <table>
 <tr>
 <td valign="top">
-<img src="./manoj-ascii.svg" width="390" />
+<img src="./manoj-ascii.svg" width="430" />
 </td>
 
 <td valign="top">
-<img src="./info-card.svg" width="560" />
+<img src="./info-card.svg" width="520" />
 </td>
 </tr>
 </table>
